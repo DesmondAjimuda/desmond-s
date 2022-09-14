@@ -225,6 +225,7 @@ label {
 
 .section {
   padding: 80px 60px;
+  border: 0px none #000;
   background-color: #fdfdfd;
   text-decoration: none;
 }
@@ -596,13 +597,14 @@ label {
 }
 
 .grid-24 {
-  -ms-grid-columns: 2fr 1fr;
-  grid-template-columns: 2fr 1fr;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
 
 .link-3 {
+  margin-top: 10px;
   color: #fdfdfd;
   font-size: 18px;
   line-height: 24px;
